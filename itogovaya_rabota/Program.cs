@@ -2,3 +2,5 @@
 
 string[] group = Array.FindAll(text, word => word.Length <= 3);
 foreach (var word in group);
+
+Console.WriteLine(word);
